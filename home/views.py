@@ -8,8 +8,3 @@ def home(request):
         'home/index.html'
     )
 
-def cart(request):
-    return render(
-        request,
-        'home/cart.html'
-    )
